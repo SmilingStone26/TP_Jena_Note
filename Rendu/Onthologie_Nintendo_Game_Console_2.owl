@@ -1,0 +1,581 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#"
+     xml:base="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#GameBoyAdvance_to_NintendoDS -->
+
+    <owl:ObjectProperty rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#GameBoyAdvance_to_NintendoDS">
+        <rdfs:subPropertyOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Retrocompatibilité"/>
+        <rdfs:domain rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Game_Boy_Advance"/>
+        <rdfs:range rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Nintendo_DS"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#GameBoyColor_to_GameBoyAdvance -->
+
+    <owl:ObjectProperty rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#GameBoyColor_to_GameBoyAdvance">
+        <rdfs:subPropertyOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Retrocompatibilité"/>
+        <rdfs:domain rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Game_Boy_Color"/>
+        <rdfs:range rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Game_Boy_Advance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#GameBoy_to_GameBoyColor -->
+
+    <owl:ObjectProperty rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#GameBoy_to_GameBoyColor">
+        <rdfs:subPropertyOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Retrocompatibilité"/>
+        <rdfs:domain rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Game_Boy"/>
+        <rdfs:range rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Game_Boy_Color"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Gamecube_to_Wii -->
+
+    <owl:ObjectProperty rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Gamecube_to_Wii">
+        <rdfs:subPropertyOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Retrocompatibilité"/>
+        <rdfs:domain rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Nintendo_GameCube"/>
+        <rdfs:range rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Wii"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Retrocompatibilité -->
+
+    <owl:ObjectProperty rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Retrocompatibilité"/>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Wii_to_WiiU -->
+
+    <owl:ObjectProperty rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Wii_to_WiiU">
+        <rdfs:subPropertyOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Retrocompatibilité"/>
+        <rdfs:domain rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Wii"/>
+        <rdfs:range rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Wii_U"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On -->
+
+    <owl:ObjectProperty rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On"/>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On_3DS -->
+
+    <owl:ObjectProperty rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On_3DS">
+        <rdfs:subPropertyOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On"/>
+        <rdfs:domain rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#3DS_Games"/>
+        <rdfs:range rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Nintendo_3DS"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On_Color_TV_Game -->
+
+    <owl:ObjectProperty rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On_Color_TV_Game">
+        <rdfs:subPropertyOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On"/>
+        <rdfs:domain rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Color_TV-Game_Games"/>
+        <rdfs:range rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Color_TV-Game"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On_DS -->
+
+    <owl:ObjectProperty rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On_DS">
+        <rdfs:subPropertyOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On"/>
+        <rdfs:domain rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#DS_Games"/>
+        <rdfs:domain rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Game_Boy_Advance_Games"/>
+        <rdfs:range rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Nintendo_DS"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On_GameBoy -->
+
+    <owl:ObjectProperty rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On_GameBoy">
+        <rdfs:subPropertyOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On"/>
+        <rdfs:domain rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Game_Boy_Games"/>
+        <rdfs:range rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Game_Boy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On_GameBoy_Advance -->
+
+    <owl:ObjectProperty rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On_GameBoy_Advance">
+        <rdfs:subPropertyOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On"/>
+        <rdfs:domain rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Game_Boy_Advance_Games"/>
+        <rdfs:domain rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Game_Boy_Color_Games"/>
+        <rdfs:range rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Game_Boy_Advance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On_GameBoy_Color -->
+
+    <owl:ObjectProperty rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On_GameBoy_Color">
+        <rdfs:subPropertyOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On"/>
+        <rdfs:domain rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Game_Boy_Color_Games"/>
+        <rdfs:domain rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Game_Boy_Games"/>
+        <rdfs:range rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Game_Boy_Color"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On_GameCube -->
+
+    <owl:ObjectProperty rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On_GameCube">
+        <rdfs:subPropertyOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On"/>
+        <rdfs:domain rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#GameCube_Games"/>
+        <rdfs:range rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Nintendo_GameCube"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On_N64 -->
+
+    <owl:ObjectProperty rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On_N64">
+        <rdfs:subPropertyOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On"/>
+        <rdfs:domain rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#N64_Games"/>
+        <rdfs:range rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Nintendo_64"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On_NES -->
+
+    <owl:ObjectProperty rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On_NES">
+        <rdfs:subPropertyOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On"/>
+        <rdfs:domain rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#NES_Games"/>
+        <rdfs:range rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Nintendo_Entertainment_System"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On_SNES -->
+
+    <owl:ObjectProperty rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On_SNES">
+        <rdfs:subPropertyOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On"/>
+        <rdfs:domain rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#SNES_Games"/>
+        <rdfs:range rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Super_Nintendo_Entertainment_System"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On_Switch -->
+
+    <owl:ObjectProperty rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On_Switch">
+        <rdfs:subPropertyOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On"/>
+        <rdfs:domain rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Switch_Games"/>
+        <rdfs:range rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Nintendo_Switch"/>
+        <rdfs:range rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Nintendo_Switch_Lite"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On_VirtualBoy -->
+
+    <owl:ObjectProperty rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On_VirtualBoy">
+        <rdfs:subPropertyOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On"/>
+        <rdfs:domain rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Virtual_Boy_Games"/>
+        <rdfs:range rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Virtual_Boy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On_Wii -->
+
+    <owl:ObjectProperty rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On_Wii">
+        <rdfs:subPropertyOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On"/>
+        <rdfs:domain rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#GameCube_Games"/>
+        <rdfs:domain rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Wii_Games"/>
+        <rdfs:range rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Wii"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On_Wii_U -->
+
+    <owl:ObjectProperty rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On_Wii_U">
+        <rdfs:subPropertyOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On"/>
+        <rdfs:domain rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Wii_Games"/>
+        <rdfs:domain rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Wii_U_Games"/>
+        <rdfs:range rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Wii_U"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On_Game&amp;Watch -->
+
+    <owl:ObjectProperty rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On_Game&amp;Watch">
+        <rdfs:subPropertyOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Works_On"/>
+        <rdfs:domain rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Game_&amp;_Watch_Games"/>
+        <rdfs:range rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Game_&amp;_Watch_Series"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Age_Limit -->
+
+    <owl:DatatypeProperty rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Age_Limit"/>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Developers -->
+
+    <owl:DatatypeProperty rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Developers"/>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Name"/>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Rate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Rate"/>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#ReleaseYear -->
+
+    <owl:DatatypeProperty rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#ReleaseYear"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Color_TV-Game -->
+
+    <owl:Class rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Color_TV-Game">
+        <rdfs:subClassOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Salon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Color_TV-Game_Games -->
+
+    <owl:Class rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Color_TV-Game_Games">
+        <rdfs:subClassOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Games"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Console -->
+
+    <owl:Class rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Console"/>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#DS_Games -->
+
+    <owl:Class rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#DS_Games">
+        <rdfs:subClassOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Games"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#GameCube_Games -->
+
+    <owl:Class rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#GameCube_Games">
+        <rdfs:subClassOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Games"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Game_Boy -->
+
+    <owl:Class rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Game_Boy">
+        <rdfs:subClassOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Mobile"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Game_Boy_Advance -->
+
+    <owl:Class rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Game_Boy_Advance">
+        <rdfs:subClassOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Mobile"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Game_Boy_Advance_Games -->
+
+    <owl:Class rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Game_Boy_Advance_Games">
+        <rdfs:subClassOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Games"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Game_Boy_Color -->
+
+    <owl:Class rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Game_Boy_Color">
+        <rdfs:subClassOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Mobile"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Game_Boy_Color_Games -->
+
+    <owl:Class rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Game_Boy_Color_Games">
+        <rdfs:subClassOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Games"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Game_Boy_Games -->
+
+    <owl:Class rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Game_Boy_Games">
+        <rdfs:subClassOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Games"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Games -->
+
+    <owl:Class rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Games"/>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Hybride -->
+
+    <owl:Class rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Hybride">
+        <rdfs:subClassOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Console"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Mobile -->
+
+    <owl:Class rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Mobile">
+        <rdfs:subClassOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Console"/>
+        <owl:disjointWith rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Salon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#N64_Games -->
+
+    <owl:Class rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#N64_Games">
+        <rdfs:subClassOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Games"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#NES_Games -->
+
+    <owl:Class rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#NES_Games">
+        <rdfs:subClassOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Games"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Nintendo_3DS -->
+
+    <owl:Class rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Nintendo_3DS">
+        <rdfs:subClassOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Mobile"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Nintendo_64 -->
+
+    <owl:Class rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Nintendo_64">
+        <rdfs:subClassOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Salon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Nintendo_DS -->
+
+    <owl:Class rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Nintendo_DS">
+        <rdfs:subClassOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Mobile"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Nintendo_Entertainment_System -->
+
+    <owl:Class rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Nintendo_Entertainment_System">
+        <rdfs:subClassOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Salon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Nintendo_GameCube -->
+
+    <owl:Class rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Nintendo_GameCube">
+        <rdfs:subClassOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Salon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Nintendo_Switch -->
+
+    <owl:Class rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Nintendo_Switch">
+        <rdfs:subClassOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Hybride"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Nintendo_Switch_Lite -->
+
+    <owl:Class rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Nintendo_Switch_Lite">
+        <rdfs:subClassOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Mobile"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#SNES_Games -->
+
+    <owl:Class rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#SNES_Games">
+        <rdfs:subClassOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Games"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Salon -->
+
+    <owl:Class rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Salon">
+        <rdfs:subClassOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Console"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Super_Nintendo_Entertainment_System -->
+
+    <owl:Class rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Super_Nintendo_Entertainment_System">
+        <rdfs:subClassOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Salon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Switch_Games -->
+
+    <owl:Class rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Switch_Games">
+        <rdfs:subClassOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Games"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Virtual_Boy -->
+
+    <owl:Class rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Virtual_Boy">
+        <rdfs:subClassOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Mobile"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Virtual_Boy_Games -->
+
+    <owl:Class rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Virtual_Boy_Games">
+        <rdfs:subClassOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Games"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Wii -->
+
+    <owl:Class rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Wii">
+        <rdfs:subClassOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Salon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Wii_Games -->
+
+    <owl:Class rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Wii_Games">
+        <rdfs:subClassOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Games"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Wii_U -->
+
+    <owl:Class rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Wii_U">
+        <rdfs:subClassOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Salon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Wii_U_Games -->
+
+    <owl:Class rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Wii_U_Games">
+        <rdfs:subClassOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Games"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#3DS_Games -->
+
+    <owl:Class rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#3DS_Games">
+        <rdfs:subClassOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Games"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Game_&amp;_Watch_Games -->
+
+    <owl:Class rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Game_&amp;_Watch_Games">
+        <rdfs:subClassOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Games"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Game_&amp;_Watch_Series -->
+
+    <owl:Class rdf:about="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Game_&amp;_Watch_Series">
+        <rdfs:subClassOf rdf:resource="http://www.esirem/TP/SENKAYA/Nintendo_Game_Console#Mobile"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
